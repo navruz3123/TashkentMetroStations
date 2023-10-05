@@ -1,0 +1,33 @@
+@media (min-width: 1239.98px) and (max-width: 1920px) {
+  .image-list .image-item {
+    width: 1028px;
+    height: 600px;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1240px) {
+  .image-list .image-item {
+    width: 800px;
+    height: 350px;
+  }
+  .container-cart {
+    max-width: 800px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 992px) {
+  .image-list .image-item {
+    width: 640px;
+    height: 250px;
+  }
+  .container-cart {
+    max-width: 640px;
+  }
+}
+@media (max-width: 767px) {
+  .image-list .image-item {
+    width: 300px;
+    height: 150px;
+  }
+  .container-cart {
+    max-width: 300px;
+  }
+}
